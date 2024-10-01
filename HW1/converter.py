@@ -5,4 +5,4 @@
 
 input = input("Enter a character:")
 
-print(input + " corresponds to the integer", ord(input), " which is " + bin(ord(input)) + " in binary.")
+print(input + " corresponds to the integer", ord(input), "which is " + bin(ord(input)) + " in binary.")

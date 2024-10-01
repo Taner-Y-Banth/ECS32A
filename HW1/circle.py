@@ -7,4 +7,6 @@ rad = float(input("Enter radius:"))
 diameter = rad * 2
 pi = 3.14159
 
-print("Diameter", diameter, "\nCircumference", pi * diameter, "\nArea", pi * (rad ** 2))
+print("Diameter", diameter)
+print("Circumference", pi * diameter) 
+print("Area", pi * (rad ** 2))

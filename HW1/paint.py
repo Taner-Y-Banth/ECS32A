@@ -10,7 +10,7 @@ width = float(input("Width of room in inches:"))
 avgHeight = float(input("Average height of room in inches:"))
 cans = (((length * avgHeight)+(width * avgHeight)) / 72) / 100
 
-print("You'll want ", math.ceil(cans), " cans.") # utilizes ceiling function which functions in a similar way to "//" floor division
+print("You'll want", math.ceil(cans), "cans.") # utilizes ceiling function which functions in a similar way to "//" floor division
 
 # Alternate without math package
 # 
