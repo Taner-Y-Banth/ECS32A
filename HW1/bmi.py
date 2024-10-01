@@ -7,4 +7,4 @@ height = float(input("Enter height in inches:"))
 weight = float(input("Enter weight in pounds:"))
 bmi = (weight / (height ** 2)) * 703 # calculates bmi
 
-print("BMI: ", bmi)
+print("BMI:", bmi)
