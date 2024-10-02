@@ -11,7 +11,7 @@ mpg = float(input("Fuel efficiency (mpg):"))
 val = float(input("Estimated resale value after 5 years:"))
 
 # calculates necessary values
-fiveYearGas = costGas * (milesDriven / mpg)
+fiveYearGas = (costGas * (milesDriven / mpg)) * 5
 fiveYearCar = costCar - val
 
 # returns output
