@@ -100,13 +100,14 @@ print("GENIUS: In ancient Rome, what is L divided by X?")
 userResponse = input("Enter your answer:")
 
 if userResponse == "5" or userResponse == "V":
-    score += 1
+    score += 1 # adds genius to the score counter
     print("Correct!")
 else:
     print("Correct answers were 5 or V")
 
 print("Your final score is", score)
 
+# gives a message if scores are in a certain range
 if score < 3:
     print("You were unlucky!")
 elif score < 5:

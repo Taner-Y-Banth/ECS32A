@@ -14,7 +14,7 @@ userResponse = input("Enter your choice:")
 
 if userResponse == "a":
     print("Correct!")
-else:
+else: # removed elif, it was redundant
     print("The correct answer was a")
     
 print(

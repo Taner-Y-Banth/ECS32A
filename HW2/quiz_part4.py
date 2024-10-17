@@ -97,10 +97,12 @@ else:
     
 print("Your total score is", score)
 
+# adds geniues question
 print("GENIUS: In ancient Rome, what is L divided by X?")
 
 userResponse = input("Enter your answer:")
 
+# realized later it should probably have been == ("5" or "V")
 if userResponse == "5" or userResponse == "V":
     print("Correct!")
 else:

@@ -12,6 +12,7 @@ print(
 
 userResponse = input("Enter your choice:")
 
+# determines if userResponse is or is not equal to "a"
 if userResponse == "a":
     print("Correct!")
 elif userResponse != "a":

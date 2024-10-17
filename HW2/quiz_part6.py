@@ -17,9 +17,9 @@ userResponse = input("Enter your choice:")
 if userResponse == "a":
     score += 1
     print("Correct!")
-elif userResponse == ("a" or "b" or "c"):
+elif userResponse == ("a" or "b" or "c"): # if userResponse is an excepted input
     print("The correct answer was a")
-else:
+else: # tells the user the input is invalid, could use a while statement to provide a chance for the user to re-enter input
     print("Invalid input! Enter a, b, or c next time.")
     print("The correct answer was a")
     

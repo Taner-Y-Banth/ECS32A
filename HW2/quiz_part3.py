@@ -15,7 +15,7 @@ print(
 userResponse = input("Enter your choice:")
 
 if userResponse == "a":
-    score += 1
+    score += 1 # increments score
     print("Correct!")
 else:
     print("The correct answer was a")
@@ -45,7 +45,7 @@ print(
 userResponse = input("Enter your choice:")
 
 if userResponse == "a":
-    score += 1
+    score += 1 
     print("Correct!")
 else:
     print("The correct answer was a")
@@ -95,4 +95,4 @@ if userResponse == "c":
 else:
     print("The correct answer was c")
     
-print("Your total score is", score)
+print("Your total score is", score) # prints total score
