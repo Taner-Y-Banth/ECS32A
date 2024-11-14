@@ -1,7 +1,7 @@
 # parrot.py
 # Ethan Bryant HW4
 # ECS32A Dr. Kristian Stevens
-# Dog walking instructions
+# Parrot app
 
 x = ""
 while True:
